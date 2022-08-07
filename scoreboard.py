@@ -9,7 +9,7 @@ class Scoreboard():
         self.ai_settings = ai_settings
         self.stats = stats
 
-        self.text_color = (30, 30, 30)
+        self.text_color = (0, 255, 45)
         self.font = pygame.font.SysFont(None, 48)
 
         self.prep_score()
